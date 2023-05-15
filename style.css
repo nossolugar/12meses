@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'titulo';
-    src: url('/12meses/12meses/aton/Anton-Regular.ttf');
+    src: url('/aton/Anton-Regular.ttf');
 }
 @font-face {
     font-family: 'subtitulo';
-    src: url('/12meses/12meses/aton/DancingScript-VariableFont_wght.ttf');
+    src: url('/aton/DancingScript-VariableFont_wght.ttf');
 }
 
 :root{
@@ -134,62 +134,62 @@ section p{
 
 }
 #img00{
-    background-image: url('/12meses/12meses/imagens/img00.jpg');
+    background-image: url('imagens/img00.jpg');
     background-position:  center top;
 
 }
 #img01{
-    background-image: url('/12meses/12meses/imagens/img01.jpg');
+    background-image: url('imagens/img01.jpg');
     background-position:  center top;
 
 }
 #img02{
-    background-image: url('/12meses/12meses/imagens/img02.jpg');
+    background-image: url('imagens/img02.jpg');
     background-position:  center top;
 }
 #img03{
-    background-image: url('/12meses/12meses/imagens/img03.jpg');
+    background-image: url('imagens/img03.jpg');
     background-position:  center top;
 }
 #img04{
-    background-image: url('/12meses/12meses/imagens/img04.jpg');
+    background-image: url('imagens/img04.jpg');
     background-position:  center top;
 }
 #img05{
-    background-image: url('/12meses/12meses/imagens/img05.jpg');
+    background-image: url('imagens/img05.jpg');
     background-position:  center top;
 }
 #img06{
-    background-image: url('/12meses/12meses/imagens/img06.jpg');
+    background-image: url('imagens/img06.jpg');
     background-position:  center top;
 }
 #img07{
-    background-image: url('/12meses/12meses/imagens/img07.jpg');
+    background-image: url('imagens/img07.jpg');
     background-position:  center top;
 }
 #img08{
-    background-image: url('/12meses/12meses/imagens/img08.jpg');
+    background-image: url('imagens/img08.jpg');
     background-position:  center top;
 
 }
 #img09{
-    background-image: url('/12meses/12meses/imagens/img09.jpg');
+    background-image: url('imagens/img09.jpg');
     background-position:  center top;
 }
 #img10{
-    background-image: url('/12meses/12meses/imagens/img10.jpg');
+    background-image: url('imagens/img10.jpg');
     background-position:  center top;
 }
 #img11{
-    background-image: url('/12meses/12meses/imagens/img11.jpg');
+    background-image: url('imagens/img11.jpg');
     background-position:  center top;
 }
 #img12{
-    background-image: url('/12meses/12meses/imagens/img12.jpg');
+    background-image: url('imagens/img12.jpg');
     background-position:  center top;
 }
 #img13{
-    background-image: url('/12meses/12meses/imagens/img13.jpg');
+    background-image: url('imagens/img13.jpg');
     background-position:  center top;
     background-repeat: repeat;
 }
@@ -200,39 +200,39 @@ section p{
     
 }
 #img14{
-    background-image: url('/12meses/12meses/imagens/img14.jpg');
+    background-image: url('imagens/img14.jpg');
     background-position:  center top;
 }
 #img15{
-    background-image: url('/12meses/12meses/imagens/img15.jpg');
+    background-image: url('imagens/img15.jpg');
     background-position:  center top;
 }
 #img16{
-    background-image: url('/12meses/12meses/imagens/img16.jpg');
+    background-image: url('imagens/img16.jpg');
     background-position:  center top;
 }
 #img17{
-    background-image: url('/12meses/12meses/imagens/img17.jpg');
+    background-image: url('imagens/img17.jpg');
     background-position:  center top;
 }
 #img18{
-    background-image: url('/12meses/12meses/imagens/img18.jpg');
+    background-image: url('imagens/img18.jpg');
     background-position:  center top;
 }
 #img19{
-    background-image: url('/12meses/12meses/imagens/img19.jpg');
+    background-image: url('imagens/img19.jpg');
     background-position:  center top;
 }
 #img20{
-    background-image: url('/12meses/12meses/imagens/img20.jpg');
+    background-image: url('imagens/img20.jpg');
     background-position:  center top;
 }
 #img21{
-    background-image: url('/12meses/12meses/imagens/img21.jpg');
+    background-image: url('imagens/img21.jpg');
     background-position:  center top;
 }
 #img22{
-    background-image: url('/12meses/12meses/imagens/img22.jpg');
+    background-image: url('imagens/img22.jpg');
     background-position:  center top;
 }
 button{
