@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url('/12meses/12meses/aton/Anton-Regular.ttf');
+}
+@font-face {
+    font-family: 'subtitulo';
+    src: url('/12meses/12meses/aton/DancingScript-VariableFont_wght.ttf');
+}
+
+:root{
+    --padrao00: 'titulo';
+    --padrao01: 'subtitulo';
+
+    --cor00: #EB3602;
+    --cor01: #3E0E00;
+    --cor02: #eb02027c;
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+body{
+    background-color: var(--cor02);
+}
+header{ 
+    min-width: 300px;
+    max-width: 1000px;
+    background-image: linear-gradient(to bottom, var(--cor00), var(--cor01) );
+    margin-top: 0.5%;
+    color: white;
+    box-shadow: 1px 4px 6px rgb(0, 0, 0);
+
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+}
+header > h1{
+    text-align: center;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.699);
+    padding: 50px;
+    color: white;
+    font-family: var(--padrao00);
+    font-size: 3em;
+}
+header > h2{
+    text-indent: 20px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.699);
+    padding: 10px;
+    
+    font-family: var(--padrao01);
+    font-size: 2em;
+
+}
+header p {
+    font-family: cursive;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    margin-right: 20px;
+    margin-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.eu{
+    text-align: center;
+    font-family: var(--padrao01);
+    font-size: 2.5em;
+}
+footer{
+    margin-top: 34px;
+    min-width: 34px;
+    max-width: 69px ;
+    
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    padding-left: 5px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+ /* parte dois*/
+section{
+    min-width: 400px;
+    max-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+h3{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 2em;
+}
+section a{
+    color: white;
+    font-size: 1.5em ;
+}
+section a:hover{
+    text-decoration: underline;
+    
+} 
+.audio{
+    padding: 10px;
+    text-align: center;
+}
+section p{  
+    text-align: justify;
+    width: 320px;
+    margin-left: 5px;
+    padding: 0px 30px;
+    color: white;
+    font-family: var(--padrao01);
+    font-size: 2em ;
+    background-color: rgba(0, 0, 0, 0.178);
+
+}
+.img{
+    background-attachment: fixed;
+    background-size: contain;
+    height: 100vh;
+    line-height: 3em;
+    border: 2px solid black;
+    box-shadow: 1px 3px 6px rgb(0, 0, 0);
+
+}
+#img00{
+    background-image: url('/12meses/12meses/imagens/img00.jpg');
+    background-position:  center top;
+
+}
+#img01{
+    background-image: url('/12meses/12meses/imagens/img01.jpg');
+    background-position:  center top;
+
+}
+#img02{
+    background-image: url('/12meses/12meses/imagens/img02.jpg');
+    background-position:  center top;
+}
+#img03{
+    background-image: url('/12meses/12meses/imagens/img03.jpg');
+    background-position:  center top;
+}
+#img04{
+    background-image: url('/12meses/12meses/imagens/img04.jpg');
+    background-position:  center top;
+}
+#img05{
+    background-image: url('/12meses/12meses/imagens/img05.jpg');
+    background-position:  center top;
+}
+#img06{
+    background-image: url('/12meses/12meses/imagens/img06.jpg');
+    background-position:  center top;
+}
+#img07{
+    background-image: url('/12meses/12meses/imagens/img07.jpg');
+    background-position:  center top;
+}
+#img08{
+    background-image: url('/12meses/12meses/imagens/img08.jpg');
+    background-position:  center top;
+
+}
+#img09{
+    background-image: url('/12meses/12meses/imagens/img09.jpg');
+    background-position:  center top;
+}
+#img10{
+    background-image: url('/12meses/12meses/imagens/img10.jpg');
+    background-position:  center top;
+}
+#img11{
+    background-image: url('/12meses/12meses/imagens/img11.jpg');
+    background-position:  center top;
+}
+#img12{
+    background-image: url('/12meses/12meses/imagens/img12.jpg');
+    background-position:  center top;
+}
+#img13{
+    background-image: url('/12meses/12meses/imagens/img13.jpg');
+    background-position:  center top;
+    background-repeat: repeat;
+}
+#img13 p {
+    background-color: rgba(255, 255, 255, 0.753);
+    color: black;
+    font-weight: bolder;
+    
+}
+#img14{
+    background-image: url('/12meses/12meses/imagens/img14.jpg');
+    background-position:  center top;
+}
+#img15{
+    background-image: url('/12meses/12meses/imagens/img15.jpg');
+    background-position:  center top;
+}
+#img16{
+    background-image: url('/12meses/12meses/imagens/img16.jpg');
+    background-position:  center top;
+}
+#img17{
+    background-image: url('/12meses/12meses/imagens/img17.jpg');
+    background-position:  center top;
+}
+#img18{
+    background-image: url('/12meses/12meses/imagens/img18.jpg');
+    background-position:  center top;
+}
+#img19{
+    background-image: url('/12meses/12meses/imagens/img19.jpg');
+    background-position:  center top;
+}
+#img20{
+    background-image: url('/12meses/12meses/imagens/img20.jpg');
+    background-position:  center top;
+}
+#img21{
+    background-image: url('/12meses/12meses/imagens/img21.jpg');
+    background-position:  center top;
+}
+#img22{
+    background-image: url('/12meses/12meses/imagens/img22.jpg');
+    background-position:  center top;
+}
+button{
+    background-color: white;
+    margin: 2%;
+
+
+}
+button p{
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: white;
+    font-family: var(--padrao00);
+    font-weight: bolder;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+button a{
+    color: black;
+    background-color: white;
+}
+#some{
+    display: inline-block;
+    margin: 2%;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    font-family: var(--padrao00);
+    font-weight: bolder;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border: 2px solid black;
+    font-size: 1.5em;
+}
+#some:hover{
+    color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+#pag3{
+    text-align: center;
+    min-width: 320px;
+    max-width: 500px;
+    font-size: 2em;
+}
